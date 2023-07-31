@@ -240,8 +240,7 @@ def modifyAccount(num):
                item.name = input("Enter the account holder name : ")
 
                item.type = input("Enter the account Type : ")
-
-               item.deposit = int(input("Enter the Amount : "))      
+      
        if flag:
             print("No records found")
             return
