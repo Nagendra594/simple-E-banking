@@ -40,8 +40,6 @@ class Account :
 
        self.type = input("Modify type of Account :")
 
-       self.deposit = int(input("Modify Balance :"))
-
    def depositAmount(self,amount):
 
        self.deposit += amount  
